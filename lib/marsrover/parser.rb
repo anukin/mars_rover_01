@@ -10,6 +10,7 @@ module MarsRoverApp
   MOVEMENT_VERTICAL = { N => 1, S => -1}
   
   class Parser
+    #Parser parses the input and outputs the end point based on some logic
     def initialize(input, x_cordinate, y_cordinate, direction)
       @input = input
       @x_cordinate = x_cordinate
